@@ -14,6 +14,7 @@ for i in range(len(input)):
 
 
 for i in range(10):
+    if (total + (i * question_pos)) % 11 == 0:
+        print('missing digit is', i)
+        break
 
-
-print('missing digit is', total - i)
